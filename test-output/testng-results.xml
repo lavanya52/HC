@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="914652" started-at="2019-06-03T17:23:28Z" finished-at="2019-06-03T17:38:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="914652" started-at="2019-06-03T17:23:28Z" finished-at="2019-06-03T17:38:43Z">
+      <class name="WebVerification.HC_AUCU_Overview_GACDW_Verify">
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:WebVerification.HC_AUCU_Overview_GACDW_Verify@20398b7c]" name="extentReport" is-config="true" duration-ms="195" started-at="2019-06-03T22:53:28Z" finished-at="2019-06-03T22:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="gacdwgenerate()[pri:1, instance:WebVerification.HC_AUCU_Overview_GACDW_Verify@20398b7c]" name="gacdwgenerate" duration-ms="339426" started-at="2019-06-03T22:53:28Z" finished-at="2019-06-03T22:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gacdwgenerate -->
+        <test-method status="PASS" signature="temdScanLoad()[pri:2, instance:WebVerification.HC_AUCU_Overview_GACDW_Verify@20398b7c]" name="temdScanLoad" duration-ms="304420" started-at="2019-06-03T22:59:08Z" finished-at="2019-06-03T23:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temdScanLoad -->
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:WebVerification.HC_AUCU_Overview_GACDW_Verify@20398b7c]" name="extentReport" is-config="true" duration-ms="0" started-at="2019-06-03T22:59:08Z" finished-at="2019-06-03T22:59:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:WebVerification.HC_AUCU_Overview_GACDW_Verify@20398b7c]" name="extentReport" is-config="true" duration-ms="3" started-at="2019-06-03T23:04:12Z" finished-at="2019-06-03T23:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="PASS" signature="aucuGenerate()[pri:3, instance:WebVerification.HC_AUCU_Overview_GACDW_Verify@20398b7c]" name="aucuGenerate" duration-ms="244431" started-at="2019-06-03T23:04:12Z" finished-at="2019-06-03T23:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aucuGenerate -->
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:WebVerification.HC_AUCU_Overview_GACDW_Verify@20398b7c]" name="extentReport" is-config="true" duration-ms="6" started-at="2019-06-03T23:08:17Z" finished-at="2019-06-03T23:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+        <test-method status="FAIL" signature="pageVerify()[pri:3, instance:WebVerification.HC_AUCU_Overview_GACDW_Verify@20398b7c]" name="pageVerify" duration-ms="26125" started-at="2019-06-03T23:08:17Z" finished-at="2019-06-03T23:08:43Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: 2AU FRANCE---CU FRANCE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-IK4EE2E', ip: '9.81.194.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 2AU FRANCE---CU FRANCE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-IK4EE2E', ip: '9.81.194.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:208)
+	at Pages.HC_AUCU_Overview_Page.getaucuIMT(HC_AUCU_Overview_Page.java:87)
+	at DataProvider.HC_AUCU_Overview_Verify.verify_IMT_MF_SER(HC_AUCU_Overview_Verify.java:62)
+	at WebVerification.HC_AUCU_Overview_GACDW_Verify.pageVerify(HC_AUCU_Overview_GACDW_Verify.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageVerify -->
+      </class> <!-- WebVerification.HC_AUCU_Overview_GACDW_Verify -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
